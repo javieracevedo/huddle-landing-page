@@ -1,0 +1,110 @@
+body {
+  background-color: #6648b1;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 24px auto 24px;
+  grid-template-rows: 24px auto;
+  max-width: auto;
+}
+
+.bg-overlay {
+  height: 380px;
+  background-image: url("./assets/bg-mobile.svg");
+  background-repeat: no-repeat;
+  /* background-size: 100% 100%; */
+}
+
+.huddle-logo {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  margin-left: 12px;
+}
+
+.huddle-logo img {
+  width: 42%;
+}
+
+.illustration-mockups {
+  display: flex;
+  justify-content: center;
+  grid-column-start: 2;
+  grid-row-start: 3;
+  margin-top: 62px;
+}
+
+.illustration-mockups img {
+  width: 90%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  grid-column-start: 2;
+  grid-row-start: 4;
+  margin-top: 70px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 1.6em;
+  text-align: center;
+}
+
+.description {
+  grid-column-start: 2;
+  grid-row-start: 5;
+
+  margin-top: 20px;
+  text-align: center;
+  
+  font-size: 1em;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.register-button {
+  display: flex;
+  justify-content: center;
+  grid-column-start: 2;
+  grid-row-start: 6;
+
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+
+  padding: 9px;
+
+  border: 2px solid white;
+  border-radius: 20px;
+
+  background-color: white;
+  color: #6648b1;
+
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  grid-column-start: 2;
+  grid-row-start: 7;
+
+  margin-top: 90px;
+
+}
+
+.social-icons > div > i {
+  font-size: 1.5em;
+  color: white;
+}
+
+/* @media (max-width: 375px) {
+  .bg-overlay {
+    background-image: url("./assets/bg-mobile.svg");
+  }
+} */
