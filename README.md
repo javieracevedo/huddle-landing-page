@@ -1,3 +1,3 @@
-### Huddle Landing Page 
+## Huddle Landing Page 
 
 Frontend mentor landing page css challenge.
