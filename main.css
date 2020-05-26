@@ -11,10 +11,10 @@ body {
 }
 
 .bg-overlay {
-  height: 380px;
   background-image: url("./assets/bg-mobile.svg");
   background-repeat: no-repeat;
-  /* background-size: 100% 100%; */
+  background-size: contain;
+  padding: 3.5%; 
 }
 
 .huddle-logo {
@@ -36,7 +36,7 @@ body {
 }
 
 .illustration-mockups img {
-  width: 92%;
+  width: 97%;
 }
 
 .title {
