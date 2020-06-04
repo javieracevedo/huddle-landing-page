@@ -53,6 +53,12 @@ body {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  .title-container > h4 {
+    font-size: 2.5em;
+  }
+}
+
 .description {
   grid-column-start: 2;
   grid-row-start: 5;
@@ -66,19 +72,38 @@ body {
   color: white;
 }
 
-.register-link {
-  display: flex;
+@media (min-width: 768px) {
+  .description {
+    font-size: 1.8em;
+  }
+}
+
+@media (min-width: 1440px) {
+  .description {
+    font-size: 2em;
+  }
+}
+
+.button-container {
   justify-content: center;
   grid-column-start: 2;
   grid-row-start: 6;
+  display: flex;
+}
 
-  margin-top: 20px;
-  margin-left: 60px;
-  margin-right: 60px;
-  padding: 9px;
+.button-container > a {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 12px;
+  
+  width: 100%;
 
   border: 2px solid white;
-  border-radius: 20px;
+  border-radius: 28px;
 
   background-color: white;
   color: #6648b1;
@@ -87,7 +112,17 @@ body {
   font-family: 'Poppins', sans-serif;
 
   box-shadow: 0px 15px 6px -9px rgba(0,0,0,0.3);
+  max-width: 40%;
 }
+
+@media (min-width: 768px) {
+  .button-container > a{
+    padding: 16px;
+    max-width: 35%;
+    font-size: 1.3em;
+  }
+}
+
 
 .social-icons-wrapper {
   grid-column-start: 2;
@@ -100,8 +135,9 @@ body {
   display: flex;
   justify-content: space-evenly;
   margin-top: 90px;
-  width: 50%;
+  width: 150px;
 }
+
 
 .social-icons > div > i {
   font-size: 1.1em;
@@ -120,10 +156,18 @@ body {
   flex-direction: column;
 }
 
+@media (min-width: 768px) {
 
-
-/* @media (max-width: 375px) {
-  .bg-overlay {
-    background-image: url("./assets/bg-mobile.svg");
+  .social-icons {
+    width: 300px;
   }
-} */
+
+  .social-icons-circle {
+    height: 64px;
+    width: 64px;
+  }
+
+  .social-icons > div > i {
+    font-size: 2.5em;
+  }
+}
