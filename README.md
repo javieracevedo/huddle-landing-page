@@ -1,3 +1,3 @@
 ## Huddle Landing Page 
 
-Frontend mentor landing page css challenge.
+My solution for the frontend mentor [huddle landing page challenge](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0) in css. Here's a [link to the demo.](https://unruffled-heisenberg-397c66.netlify.app/).
