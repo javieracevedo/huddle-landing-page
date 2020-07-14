@@ -4,9 +4,9 @@ My solution for the frontend mentor [huddle landing page challenge](https://www.
 
 ### Desktop Layout
 
-![Huddle landing page desktop preview.]("./assets/desktop-solution.png")
+![Huddle landing page desktop preview.](./assets/desktop-solution.png)
 
 
 ### Mobile Layout
 
-![Huddle landing page mobile preview.]("./assets/mobile-solution.png")
+![Huddle landing page mobile preview.](./assets/mobile-solution.png)
