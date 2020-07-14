@@ -1,6 +1,6 @@
 ## Huddle Landing Page 
 
-My solution for the frontend mentor [huddle landing page challenge](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0) in CSS. Here's a [link to the demo.](https://unruffled-heisenberg-397c66.netlify.app/).
+My solution for the frontend mentor [huddle landing page challenge](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0) in CSS. Here's a [link to the demo.](https://unruffled-heisenberg-397c66.netlify.app/)
 
 ### Desktop Layout
 
